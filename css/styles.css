@@ -475,7 +475,7 @@ section {
     }
 }
 .benefit-icon {
-    
+    display: flex;
 }
 .benefit {
     font-weight: 500;
