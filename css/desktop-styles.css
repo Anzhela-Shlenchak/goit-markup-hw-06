@@ -326,12 +326,7 @@ padding: 120px 0;
 
 /* FOURTH SECTION */
 .our-portfolio {
-    background-color: #fff;
-    display: flex;
-    row-gap: 48px;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    
+
 }
 .portfolio {
     width: calc((100% - 48px) / 3);
@@ -379,7 +374,6 @@ padding: 120px 0;
 .fourth-section {
     padding-top: 120px;
     padding-bottom: 120px;
-
 }
 /* /FOURTH SECTION */
 
@@ -466,9 +460,7 @@ display: inline-block;
     display: flex;
     justify-content: center;
 }
-/* /FOOTER */
 
-/* MODAL */
 .form-container {
     display: flex;
     justify-content: center;
@@ -535,7 +527,9 @@ display: inline-block;
     margin-left: 16px;
     fill: #fff;
 }
+/* /FOOTER */
 
+/* MODAL */
 .backdrop {
     position: fixed;
     top: 0;
