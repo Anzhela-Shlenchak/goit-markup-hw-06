@@ -73,7 +73,7 @@ button {
 
 @media only screen and (min-width: 1158px) {
 .container {
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 0 15px;
     }
 }
@@ -248,11 +248,13 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 320px;
-    min-height: 640px;
+    width: 408px;
+    min-height: 584px;
     background-color: #fcfcfc;
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
 }
 
 .modal-header-close-button {
@@ -285,9 +287,7 @@ section {
 .modal-close-button:focus>.modal-close-icon {
     fill: #ffffff;
 }
-.menu-address {
-margin-top: 168px;
-}
+
 .menu-list {
     display: flex;
     flex-direction: column;
@@ -306,6 +306,9 @@ margin-top: 168px;
 .menu-link:hover,
 .menu-link:focus {
     color: #2e2f42;
+}
+.menu-contacts {
+    margin-top: auto;
 }
 .menu-address-list {
     display: flex;
@@ -382,7 +385,6 @@ display: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 320px;
     width: 100%;
     margin: 0 auto;
 }
@@ -403,9 +405,9 @@ display: none;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    max-width: 320px;
     text-align: center;
     margin-bottom: 72px;
+    text-transform: capitalize;
 }
 
 .button {
@@ -455,6 +457,7 @@ display: none;
     margin-bottom: 36px;
     margin-right: auto;
     margin-left: auto;
+    text-transform: none;
     }
 }
 @media only screen and (min-width: 1158px) {
@@ -464,7 +467,7 @@ display: none;
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
                 url(../images/people-office.jpg);
-            max-width: 1158px;
+            max-width: 1440px;
         }
     
         @media screen and (min-device-pixel-ratio: 2),
@@ -761,13 +764,13 @@ display: none;
 .page-footer {
     display: block;
     background: #2E2F42;
-    max-width: 320px;
     padding: 96px 0;
 }
 .footer-container {
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+   
 }
 .web-logo-footer {
     font-family: "Raleway", sans-serif;
@@ -954,9 +957,9 @@ display: none;
 }
 
 @media only screen and (min-width: 1158px) {
-    .page-footer {
-        max-width: 1158px;
-        }
+    /* .page-footer {
+    max-width: 1158px;
+        } */
     .footer-container {
     display: flex;
     margin: 0 auto;
@@ -983,7 +986,7 @@ display: none;
 
 /* /FOOTER */
 /* MODAL */
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -995,7 +998,7 @@ display: none;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop {
+.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -1217,5 +1220,5 @@ display: none;
         width: 408px;
         min-height: 584px;
     }
-}
+} */
 /* MODAL */
