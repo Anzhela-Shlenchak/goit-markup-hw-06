@@ -408,6 +408,8 @@ display: none;
     text-align: center;
     margin-bottom: 72px;
     text-transform: capitalize;
+    max-width: 216px;
+    margin: 0 auto 72px;
 }
 
 .button {
@@ -980,6 +982,9 @@ display: none;
    }
    .footer-form-input {
    margin-left: 80px;
+   }
+   .footer-logo-container {
+    margin-right: 120px;
    }
    }
 
