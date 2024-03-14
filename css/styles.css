@@ -752,7 +752,9 @@ display: none;
 
 }
 @media only screen and (min-width: 1158px) {
-
+    .our-portfolio {
+         row-gap: 48px;
+        }
     .portfolio {
      width: calc((100% - 48px) / 3);
         box-shadow: none;
@@ -924,8 +926,7 @@ display: none;
 @media only screen and (min-width: 768px) {
 .page-footer {
     display: flex;
-        max-width: 768px;
-        flex-direction: column;
+    flex-direction: column;
     }
     .footer-container {
         justify-content: start;
@@ -957,9 +958,7 @@ display: none;
 }
 
 @media only screen and (min-width: 1158px) {
-    /* .page-footer {
-    max-width: 1158px;
-        } */
+    
     .footer-container {
     display: flex;
     margin: 0 auto;
@@ -986,7 +985,7 @@ display: none;
 
 /* /FOOTER */
 /* MODAL */
-/* .backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -1220,5 +1219,5 @@ display: none;
         width: 408px;
         min-height: 584px;
     }
-} */
+}
 /* MODAL */
